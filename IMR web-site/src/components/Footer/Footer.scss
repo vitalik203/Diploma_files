@@ -1,0 +1,118 @@
+.footer-wrapper {
+  max-width: 100%;
+  height: 600px;
+  background-color: #454341;
+  z-index: 1;
+  .feedback {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-right: 25px;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid red;
+  }
+  .feedback:hover {
+    background-color: coral;
+    color: brown;
+  }
+  .feedback:active {
+    border: 2px solid rgb(0, 24, 57);
+    background-color: rgb(40, 79, 250);
+    color: rgb(13, 46, 73);
+  }
+  .footer-grid-cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    padding-top: 25px;
+    .map {
+      z-index: 1;
+      height: 450px;
+      margin: auto 0;
+      margin-left: 35px;
+    }
+    .footer-contacts {
+      color: white;
+      font-size: 23px;
+      margin: auto 0;
+      a {
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
+  .footer-hr {
+    margin: 25px auto;
+    display: block;
+    content: "";
+    width: 95%;
+    height: 2px;
+    background-color: white;
+  }
+  .right-reserved {
+    max-width: 100%;
+    color: white;
+    margin: 25px;
+  }
+}
+
+//Responsible
+/* Small displays and tablets */
+@media only screen and (max-width: 630px) {
+  .footer-wrapper {
+    height: fit-content !important;
+    padding-bottom: 25px;
+    .footer-grid-cover {
+      grid-template-columns: 1fr;
+      .map {
+        max-width: 100vw;
+        margin: 25px;
+        padding: 0;
+      }
+      .footer-contacts {
+        max-width: 100%;
+        margin: 25px;
+        font-size: 18px;
+      }
+    }
+    .right-reserved {
+      display: block;
+      margin: 0 15px;
+      padding: 0;
+      max-width: 100%;
+    }
+    .feedback {
+      margin: 0 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-wrapper {
+    height: fit-content !important;
+    padding-bottom: 25px;
+    .feedback {
+      max-width: 45%;
+      margin: 25px auto;
+      height: 45px;
+      font-size: 11px;
+      float: none;
+      text-align: center;
+    }
+  }
+}
+
+// /* Medium displays (tablets) */
+// @media only screen and (min-width: 631px) and (max-width: 1024px) {
+// }
+
+// /* Big displays */
+// @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+// }
+
+// /* Huge displays */
+// @media only screen and (min-width: 1441px) {
+// }

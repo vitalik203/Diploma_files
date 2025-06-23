@@ -1,0 +1,44 @@
+.alice-carousel {
+  position: relative;
+}
+
+.alice-carousel img {
+  width: 100%; /* Робимо зображення на всю ширину контейнера */
+  height: 100%; /* Якщо потрібно, можна поставити висоту 100% для повної відповідності */
+  object-fit: cover; /* Зберігає пропорції зображення та забезпечує заповнення контейнера */
+}
+
+.buttons_cover {
+  // position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .prev-btn {
+    position: relative;
+    margin-top: 35px;
+    .prev-btn-custom {
+      color: black;
+    }
+  }
+
+  .next-btn {
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    .next-btn-custom {
+      color: black;
+    }
+  }
+  .prev-btn:hover,
+  .next-btn:hover {
+    box-shadow: 5px 2px 2px rgb(138, 138, 138);
+    background-color: rgb(48, 91, 234);
+    color: white;
+    .prev-btn-custom {
+      color: rgb(255, 255, 255);
+    }
+    .next-btn-custom {
+      color: rgb(255, 255, 255);
+    }
+  }
+}

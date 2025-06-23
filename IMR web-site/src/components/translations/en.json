@@ -1,0 +1,45 @@
+{
+  "header": {
+    "logoImg": "/public/logos/logo 2en.svg",
+    "logoText": "Department of Intelligent Mechatronics and Robotics",
+    "nav": [
+      "News",
+      "About us",
+      "Studying",
+      "Science",
+      "Partnership",
+      "Contacts",
+      "Robot"
+    ]
+  },
+  "main": {
+    "login": {
+      "linkToController": "Link to controller",
+      "modalWindow": {
+        "linkIntoModal": "Open Controller for RON",
+        "close": "Close"
+      }
+    }
+  },
+  "footer": {
+    "gridCover": {
+      "map": "<Map />",
+      "contacts": {
+        "address": "Address: St. Kn. Romana 1/3, 19th NK, room 117",
+        "phones": [{ "type": "tel", "number": "(032) 258-30-41" }],
+        "email": [
+          { "type": "mailto", "address": "ptm.dept@lpnu.ua" },
+          { "type": "mailto", "address": "ptm@lp.edu.ua" }
+        ],
+        "wikiPage": {
+          "label": "Department of Intelligent Mechatronics and Robotics",
+          "url": "http://wiki.lp.edu.ua/wiki/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0_%D0%BF%D1%80%D0%B8%D0%BB%D0%B0%D0%B4%D1%96%D0%B2_%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%97_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B8"
+        }
+      }
+    },
+    "footerHr": "<span className=\"footer-hr\"></span>",
+    "rightReserved": "©2025 Department of Intelligent Mechatronics and Robotics | ALL RIGHT RESERVED",
+    "feedback": "https://docs.google.com/forms/d/e/1FAIpQLSetXT0kUjtfkaNqCzZjfMyR7pUmJ9msywnIL8OAFFDEwXCrIQ/viewform",
+    "developer": "Developed by Zaluskii Vitalii"
+  }
+}
